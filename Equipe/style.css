@@ -49,7 +49,7 @@ header div:hover {
   transform: scale(1.1);
 }
 
-header img {
+div img {
   max-width: 100%;
   border-radius: 50%;
 }
