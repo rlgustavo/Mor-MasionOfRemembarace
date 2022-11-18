@@ -1,0 +1,47 @@
+body {
+  padding-top: 70px;
+  margin: 0;
+  background-color: #111111;
+}
+a {
+  text-decoration: none;
+}
+.bg-menu {
+  background-color: #111111;
+}
+.fonte-p {
+  color: #9e0b0f;
+  font-weight: bold;
+  font-size: 4rem;
+}
+.btn-p {
+  display: inline-block;
+  padding: 16px 32px;
+  border-radius: 4px;
+  max-width: max-content;
+  background-color: #9e0b0f;
+  color: white;
+  font-size: 1.5rem;
+  text-decoration: none;
+}
+.btn-p:hover {
+  background-color: #eb0107;
+}
+.footer-bg {
+  background-color: black;
+}
+.manual-bg {
+  background-color: white;
+}
+.story-bg {
+  background-image: url(../img/Imagem\ MoR.png);
+  background-position: top center;
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  height: 800px;
+}
+.fonte-m {
+  color: #9e0b0f;
+  font-weight: bold;
+  font-size: 24px;
+}
