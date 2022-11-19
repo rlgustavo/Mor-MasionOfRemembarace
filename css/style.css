@@ -81,4 +81,7 @@
     width: 100px;
     height: 225px;
   }
+  .font-primary {
+    font-size: 2rem;
+  }
 }
