@@ -79,6 +79,8 @@
 @media (max-width: 760px) {
   .img-teste {
     width: 100%;
+    max-width: max-content;
+    margin-left: 0;
   }
   .font-primary {
     font-size: 2rem;
