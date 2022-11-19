@@ -19,47 +19,31 @@
 </head>
 
 <body class="bg-menu2">
-    <header>
-        <nav class="navbar navbar-expand-md bg-menu navbar-dark fixed-top shadow-sm">
-            <a class="navbar-brand px-5" href="./index.html"><img src="img/MoR_3.png" alt="Logo-MoR" height="70" width="120" class=""></a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado" aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
-                <ul class="navbar-nav ml-auto mx-5 px-5 fs-4">
-                    <li class="nav-item ">
-                        <a class="nav-link p-3" href="jogo.html">Jogo</a>
-                    </li>
-                    <li class="nav-item ">
-                        <a class="nav-link p-3" href="manual.html">Manual</a>
-                    </li>
-                    <li class="nav-item ">
-                        <a class="nav-link p-3" href="contato.html">Contato</a>
-                    </li>
-                    <li class="nav-item ">
-                        <a class="nav-link p-3" href="equipe.html">Equipe</a>
-                    </li>
-                    <!-- <div>
-                        <ul class="navbar-nav ml-auto">
-                            <li class="nav-item">
-                                <a class="nav-link" href="http://www.google.com" target="_blank"><img src="img/icones/facebook-p_1.svg" alt=""></a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="http://www.google.com" target="_blank"><img src="img/icones/instagram-p_1.svg" alt=""></a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="http://www.google.com" target="_blank"><img src="img/icones/youtube-p_1.svg" alt=""></a>
-                            </li>
-                        </ul>
-                    </div> -->
-                </ul>
-            </div>
-            <!-- <a href="./index.html"><img src="img/mor-nome.png" alt="Logo MoR" width="400" height="70"></a> -->
-        </nav>
-    </header>
+    <nav class="navbar navbar-expand-md bg-menu navbar-dark  shadow-sm">
+        <a class="navbar-brand px-5" href="./index.html"><img src="img/MoR_3.png" alt="Logo-MoR" height="70" width="120" class=""></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menuprincipal" aria-controls="menuprincipal" aria-expanded="false" aria-label="Abrir Navegação">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="menuprincipal">
+            <ul class="navbar-nav ml-auto mx-5 px-5 fs-4">
+                <li class="nav-item">
+                    <a class="nav-link p-3" href="jogo.html">Jogo</a>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link p-3" href="manual.html">Manual</a>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link p-3" href="contato.html">Contato</a>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link p-3" href="equipe.html">Equipe</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
     <main class="container-fluid">
         <div class="row p-5">
-            <div class="col-lg-7">
+            <div class="col-lg-7 p-0">
                 <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
                     <div class="carousel-indicators">
                         <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -81,11 +65,11 @@
                     </div>
                     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
                         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Previous</span>
+                        <span class="visually-hidden">Anterior</span>
                     </button>
                     <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
                         <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Next</span>
+                        <span class="visually-hidden">Próximo</span>
                     </button>
                 </div>
             </div>
@@ -105,30 +89,23 @@
                     <source src="img/Movimentação do Personagem - TESTE.mp4" type="video/mp4">
                 </video>
             </div>
-
-
             <div class="text-center content container">
-                <h2 class="display-6 font-secundary  my-5">Venha explorar as memórias de Thanatos!</h2>
+                <h2 class="display-6 font-secundary my-5">Venha explorar as memórias de Thanatos!</h2>
                 <div class="row my-5 text-white">
-                    <div class="col ">
+                    <div class="col-md-4">
                         <h3 class="font-secundary text-danger animation">Mitologia</h3>
                         <p class="fs-5">Aprenda sobre as movimentações</p>
                     </div>
-                    <div class="col ">
+                    <div class="col-md-4">
                         <h3 class="font-secundary text-danger text-uppercase animation">Quebra-Cabeças</h3>
                         <p class="fs-5">Encontre o seu caminho pela Mansão</p>
                     </div>
-                    <div class="col ">
+                    <div class="col-md-4">
                         <h3 class="font-secundary text-danger text-uppercase animation">Misterios</h3>
                         <p class="fs-5">Desvende os segredos dessa história!</p>
                     </div>
-
                 </div>
-
-
-
             </div>
-
         </div>
     </article>
 
@@ -140,17 +117,17 @@
                 <h2 class="display-4 font-primary ">Como Jogar</h2>
             </div>
             <div class="row">
-                <div class="col mt-3">
+                <div class="col-lg-4 mt-3">
                     <img src="img/unknown.png" alt="" height="150" width="150">
                     <h3 class="font-secundary mt-3"">Controles</h3>
                     <p class=" fs-5">Aprenda sobre as movimentações</p>
                 </div>
-                <div class=" col mt-3">
+                <div class="col-lg-4 mt-3">
                     <img src="img/unknown2.png" alt="" height="150" width="150">
                     <h3 class="font-secundary mt-3"">Quebra-Cabeças</h3>
                     <p class=" fs-5">Encontre o seu caminho pela Mansão</p>
                 </div>
-                <div class=" col mt-3">
+                <div class="col-lg-4 mt-3">
                     <img src="img/unknown3.png" alt="" height="150" width="150">
                     <h3 class="font-secundary mt-3">Vitória</h3>
                     <p class="fs-5">Desvende os segredos dessa história!</p>
@@ -158,8 +135,6 @@
 
             </div>
             <a href="manual.html" class="btn btn-lg btn-p mt-4">Ver requisitos </a>
-
-
         </div>
 
     </section>
@@ -167,11 +142,10 @@
     <footer class="footer-bg">
         <div class="py-5">
             <div class="row">
-                <div class="col-4">
-                    <a href="./index.html" class="ml-5"><img src="img/image 1.svg" alt="Logo MoR" height="150" width="400"></a>
-                    <p class="text-center text-white">ShadowFox alguns direitos reservados.</p>
+                <div class="col-lg-4">
+                    <a href="./index.html"><img src="img/image 1.svg" alt="Logo MoR" height="150" width="400"></a>
                 </div>
-                <div class="col-4">
+                <div class="col-lg-4">
                     <h3 class="text-danger">Informações</h3>
                     <nav class="navbar-dark">
                         <ul class="navbar-nav fs-4">
@@ -197,6 +171,7 @@
 
 
         </div>
+        <p class="text-center text-white">ShadowFox alguns direitos reservados.</p>
     </footer>
     <script type=" text/javascript" src="js/jquery-3.2.1.slim.min.js">
     </script>
