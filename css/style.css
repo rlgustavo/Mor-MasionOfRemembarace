@@ -78,7 +78,7 @@
 
 @media (max-width: 760px) {
   .img-teste {
-    width: 100px;
+    width: 100%;
     height: 225px;
   }
   .font-primary {
