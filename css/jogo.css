@@ -83,8 +83,7 @@ a {
 }
 
 @media (max-width: 760px) {
-  .img-teste {
-    width: 100px;
-    height: 225px;
+  .font-primary {
+    font-size: 3rem;
   }
 }
