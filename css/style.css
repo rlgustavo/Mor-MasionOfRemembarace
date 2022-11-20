@@ -79,6 +79,7 @@
 @media (max-width: 760px) {
   .img-teste {
     width: 100%;
+    height: 100vh;
     max-width: max-content;
     margin-left: 0;
   }
