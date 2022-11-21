@@ -105,8 +105,8 @@
 
   .content {
     font-family: "Architects Daughter", cursive;
-    font-size: 4rem;
+    font-size: 3rem;
     color: #eb0107;
-    font-weight: bold;
+    text-align: justify;
   }
 }
