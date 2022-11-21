@@ -102,4 +102,11 @@
   .banner img {
     display: block;
   }
+
+  .content {
+    font-family: "Architects Daughter", cursive;
+    font-size: 4rem;
+    color: #eb0107;
+    font-weight: bold;
+  }
 }
