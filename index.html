@@ -19,7 +19,7 @@
 </head>
 
 <body class="bg-menu2">
-    <nav class="navbar navbar-expand-lg bg-menu navbar-dark fixed-top shadow-sm px-md-5">
+    <nav class="navbar navbar-expand-lg bg-menu navbar-dark fixed-top shadow-sm px-md-5 fadeInDown" data-anime="1500">
         <div class="container-fluid">
             <a class="navbar-brand " href="./index.html"><img src="img/MoR_3.png" alt="Logo-MoR" height="70" width="120" class=""></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -47,7 +47,7 @@
                         <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
 
                     </div>
-                    <div class="carousel-inner">
+                    <div class="carousel-inner fadeInUp" data-anime="1500">
                         <div class="carousel-item active">
                             <img src="img/hypnus/capa-1.jpeg" class="d-block img-teste" alt="Thanatos">
                         </div>
@@ -70,9 +70,9 @@
                 </div>
             </div>
             <div class="col-lg-5 text-white p-4 align-self-center">
-                <h1 class="font-primary fonte-p">Mansion of Rememberance</h1>
-                <p class="fs-3 text-secondary">Venha viver essa aventura de terror, suspense e reviravoltas</p>
-                <a href="jogo.html" class="btn btn-lg btn-outline-danger">Saiba Mais</a>
+                <h1 class="font-primary fonte-p" data-anime="500">Mansion of Rememberance</h1>
+                <p class="fs-3 text-secondary" data-anime="1000">Venha viver essa aventura de terror, suspense e reviravoltas</p>
+                <a href="jogo.html" class="btn btn-lg btn-outline-danger" data-anime="1500">Saiba Mais</a>
 
             </div>
         </div>
@@ -80,7 +80,7 @@
 
     <article class="bg-dark p-3">
         <div class="banner container-fluid">
-            <div class="">
+            <div data-anime="2500" class="fadeInRight">
                 <video autoplay muted loop>
                     <source src="img/Movimentação do Personagem - TESTE.mp4" type="video/mp4">
                 </video>
@@ -154,7 +154,8 @@
         </div>
         <p class="text-center text-white">ShadowFox alguns direitos reservados.</p>
     </footer>
-
+    <script src="js/simple-anime.js"></script>
+    <script src="js/app.js"></script>
 </body>
 
 </html>
