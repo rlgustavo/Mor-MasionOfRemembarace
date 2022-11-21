@@ -80,6 +80,10 @@
   transition: 0.3s;
 }
 
+.esconde {
+  display: none;
+}
+
 @media (max-width: 760px) {
   main img {
     width: 100;
@@ -103,7 +107,8 @@
     display: block;
   }
 
-  .content {
+  .esconde {
+    display: block;
     font-family: "Architects Daughter", cursive;
     font-size: 2.5rem;
     color: #dd1c1c;
