@@ -84,4 +84,7 @@ a {
     width: 100px;
     height: 225px;
   }
+  .titulo-1 {
+    display: none;
+  }
 }
